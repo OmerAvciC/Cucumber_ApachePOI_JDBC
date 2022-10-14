@@ -28,7 +28,7 @@ public class _08_carpimTablosu {
             }
         }
 
-        String sifirdanExcelDosyasi2 = "src/test/java/ApachePOI/Resource/sifirdanExcelDosyasi2.xlsx";//excel i nereye hangi isimle kaydedecegimizi belirledik
+        String sifirdanExcelDosyasi2 = "src/test/java/ApachiPOI/resources/WriteInTheExcelFile02.xlsx";//excel i nereye hangi isimle kaydedecegimizi belirledik
         FileOutputStream outputStream = new FileOutputStream(sifirdanExcelDosyasi2);  // run yapinca olusturuldu
         workbook.write(outputStream);                                                 // hafizada bekleyen bilgiler excel e yazdirildi
         workbook.close();                                                             //excel kapatildi
